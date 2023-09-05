@@ -6,6 +6,10 @@ import uuid
 
 class BaseModel():
     """defines all common attributes/methods for other classes""" 
+    id = None
+    created_at = None
+    updated_at = None
+
     def __init__(self):
         """Initialize the BaseModel"""
         self.id = str(uuid.uuid4())

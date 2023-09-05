@@ -10,7 +10,7 @@ class BaseModel():
     created_at = None
     updated_at = None
 
-    def __init__(self, **kwargs):
+    def __init__(self, *args, **kwargs):
         """Initialize the BaseModel"""
         super().__init__(**kwargs)
         self.id = str(uuid.uuid4())

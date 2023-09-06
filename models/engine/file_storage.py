@@ -5,12 +5,12 @@ This module serializes and deserializes JSON strings
 import json
 from os.path import exists
 from ..base_model import BaseModel
-from models.user import User
+#from models.user import User
 from os.path import exists
-from models.state import State
-from models.place import Place
-from models.review import Review
-from models.amenity import Amenity
+#from models.state import State
+#from models.place import Place
+#from models.review import Review
+#from models.amenity import Amenity
 
 name_class = ["BaseModel", "City", "State",
               "Place", "Amenity", "Review",
